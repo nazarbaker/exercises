@@ -1,0 +1,53 @@
+#rcorners4 {
+    border-radius: 15px 50px 30px 5px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+/* 15px - верхній лівий*
+   50px - верхній правий
+   30px - нижній правий
+   5px - нижній лівий */
+#rcorners5 {
+    border-radius: 15px 50px 30px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+/* 15px - верхній лівий*
+   50px - верхній правий і нижній лівий
+   30px - нижній правий */
+#rcorners6 {
+    border-radius: 15px 50px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+} 
+/* 15px - верхній лівий і нижній правий*
+   50px - верхній правий і нижній лівий */
+#rcorners7 {
+    border-radius: 50px/15px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+
+#rcorners8 {
+    border-radius: 15px/50px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+
+#rcorners9 {
+    border-radius: 50%;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+} 

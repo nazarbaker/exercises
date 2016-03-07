@@ -1,0 +1,6 @@
+#grad1{
+ height:200px;
+ background: -webkit-linear-gradient(bottom right, red , blue); 
+ /* For Safari 5.1 to 6.0 чогось не йде*/
+ background:linear-gradient(to bottom right, red, blue);/*standard syntax (must be last)*/
+}

@@ -1,0 +1,204 @@
+Вибір елементів:
+
+$('p').addClass('myclass'); - задає всім елементам p клас myclass;
+$('p.myClass') - вибере p - з класом myClass;
+
+
+$('li:first-child')  - вибере перший елемент li
+$('ul.myClass').children('li').css('color', 'green'); - вибирає тільки безпосередніх нащадків li, ті що будуть вкладені
+														глибше не виберуться.
+$('ul.myClass').children('li').first().css('color', 'red'); - вибере перший <li> з безпосер. нащадків <ul>
+$('ul.myClass').children('li:nth-child(2)').css('color', 'red'); - вибере другий <li> з безпосер. нащадків <ul>
+
+$('ul.myClass').children('li').eq(3).text('lalala'); - міняє вміст 4 <li> - навіть якщо там будуть теги поміняє на 'lalala'
+$('ul.myClass').children('li').eq(3).next() - вибере 5 - так як next вибирає наступний сусідній тег
+$('ul.myClass').children('li').eq(3).prev() - вибере 3 - так як prev вибирає попередній сусідній тег
+
+$('li').parent('ul').removeClass('myClass'); - вибере безпосередній батьківський елемент і видалить даний клас.
+$('li').parents().removeClass('myClass'); - вибере всі батьківські елементи, які підпадають під "опис".
+$('li').closest('ul').removeClass('myClass'); - вибере найближчий ,fnmrsdcmrbq елеvент, який підпадає під "опис".
+
+$('ul.myClass').find('li').css('color', 'green'); - шукає і вибирає всіх нащадків <ul> які є <li>
+$('ul.myClass').find('li:first') - шукає і вибирає перший нащадок <ul> з <li>
+
+
+Events:
+
+$('button').click(function(){
+	console.log(this); // console.log($(this));
+});
+
+// тут при натисканні на будь-яку з кнопок на сторінці, виведе в консоль саме її.
+
+$('button').click(function(){
+		$(this).text('Lalala');
+});
+
+// тут поміняє вміст тегу button на Lalala, на який натиснути.
+
+----------------------------------------------------------------------------------------------------
+приклад заміни файлу css через атрибут data:
+
+<button data-file="day">Day</button>
+<button data-file="night">Night</button>
+
+
+$('button').click(function(){
+	var stylesheet = $(this).data('file');
+	$('link').attr('href', 'css/' + stylesheet + '.css');
+});
+
+
+function
+------------------------------------------------------
+.hide() - приховує елемент
+$('dd').filter(':nth-child(n+5)').addClass('hide'); - застосує клас hide починаючи з 5 елементу.
+.show() - показує елемент.
+
+.slideToggle(500) - елемент зявляється слайдером 500 час.
+
+Приклади приховувань і показувань елементів:
+
+$('dd').filter(':nth-child(n+5)').addClass('hide');
+	$('dt').on('mouseenter', function(){
+		$(this)
+			.next()
+				.show()
+				.siblings('dd')
+					.hide();
+	});
+
+
+2)
+
+$('dd').filter(':nth-child(n+5)').addClass('hide');
+	$('dt').on('mouseenter', function(){
+		$(this)
+			.next()
+				.show(300)
+				.siblings('dd')
+					.slideUp(300);
+	});
+
+3)
+
+$('dd').filter(':nth-child(n+5)').addClass('hide');
+	$('dt').on('mouseenter', function(){
+		$(this)
+			.next()
+				.slideDown(300)
+				.siblings('dd')
+					.slideUp(300);
+	});
+
+4)
+
+$('dd').filter(':nth-child(n+5)').addClass('hide');
+	$('dl').on('mouseenter', 'dt', function(){
+		$(this)
+			.next()
+				.slideDown(300)
+				.siblings('dd')
+					.slideUp(300);
+	});
+
+
+
+Клонування:
+
+1)
+
+$('h2').bind('click', function(){
+		$(this).clone(true).appendTo('body');
+});
+
+// якщо clone(true), то елемент який зявиться також можна клонувати, по дефолту false
+
+
+Metods:
+-----------------------------------------------------------------------------------------------
+.bind();
+
+$(selector).bind(event,data,function,map)  - надає один або кілька обробників подій для вибраних елементів,
+											 і визначає функцію для запуску при настанні події.
+
+.live() == .bind() - але ще працюватиме для майбутніх елементів, які створяться скриптом.
+					!!! так як вприкладі вище для клонування не потрібно вказувати true
+
+
+.delegate() ->
+
+$('#container').delegate('h2', 'click', function(){
+		$(this).clone().appendTo('body');
+	});
+
+
+----------------------------------------------------------------------------------------------
+
+Приклади вставки елементів:
+
+
+$('article').append("heloo from the Append");// вставляє текст в кінці в середині тегу <article>
+$('article').prepend("heloo from the Prepend");// вставляє текст на початок в середині тегу <article>
+$('h1').after("heloo from the After");// вставить текст після тегу <h1>
+$('p').first().before('Hello first after p');// вставить текст перед першим тегом <p>
+$('<h2 class="myClass">Hi from appendTo</h2>').appendTo('article'); // вставить тег <h2> з текстом
+		і класом "myClass" в кінець <article> 
+
+$('<h3></h3>', {
+	text: 'Hello from h3 prependTo',
+	class: 'myClass'
+}).prependTo('article');  // тут вставляється <h3> з текстом і класом перед <article>
+
+$('<h4></h4>', {
+	text: 'Hello from h4 insertAfter',
+	class: 'myClass'
+}).insertAfter('h1');  // тут вставляє <h4> після <h1>
+
+різниця між insertAfter i after - insertAfter - вставляє тег, after - вставляє текст
+
+$('<h4></h4>', {
+	text: 'Hello from h4 insertBefore',
+	class: 'myClass'
+}).insertBefore('p:nth-child(3)'); // вставляє <h4> пред <p> який є 3-м елементом (див append/insert.js)
+
+$('h1').appendTo('article'); // якщо <h1> вже існував то перенесе його в кінець <article>
+
+// вставить <h1> після кожного <p> (повторить append/repeat.js)
+$('p').after( $('h1') ); 
+
+// можна вказати конкретно після якого елементу
+
+$('p').eq(0).after($('h1')); // тут тільки після першого елементу
+
+// тут елемент який йде після першого <p> стане після нього
+
+$('p').eq(0).after(function(){
+	return $(this).prev();
+});
+
+// тут додасть текст перед <span> кожного <p> 
+
+$('span.co').each(function(){
+	$(this).closest('p').prepend('Say say say');
+});
+
+// тут копіює текст <span> в цитату <blockquote>  append/blockquote.js
+var co2 = $('span.co2').each(function(){
+	var $this = $(this);
+
+	$('<blockquote></blockquote>', {
+		class: 'co2',
+		text: $(this).text()
+	}).prependTo( $(this).closest('p') );
+});
+
+// можна записати так
+/*var co = $('article').find('span.co').each(function(){
+	var $this = $(this);
+
+	$('<blockquote></blockquote>', {
+		class: 'co',
+		text: $(this).text()
+	}).prependTo( $(this).closest('p') );
+});*/

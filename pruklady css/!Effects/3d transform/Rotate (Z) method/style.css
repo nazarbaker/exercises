@@ -1,0 +1,10 @@
+div {
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+#myDiv {
+	-webkit-transform: rotateZ(90deg); /*Safari*/
+	transform: rotateZ(90deg);
+}

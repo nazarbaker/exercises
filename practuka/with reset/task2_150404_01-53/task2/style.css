@@ -1,0 +1,11 @@
+.st1{color:white;
+	   background-color:gray;}
+#st2{text-align:center;}
+#st3{color:white;
+		background-color:blue;}
+#paint{width:500px;
+	   height:358px;}
+table,th,td{border:1px solid black;
+		  border-collapse:collapse;}
+table{width:100%;
+	text-align:center;}

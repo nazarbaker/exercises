@@ -1,0 +1,31 @@
+.first {
+    width: 100px;
+    height: 100px;
+    background: red;
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 1s;
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 2s; /*Визначає, скільки секунд або мілісекунд ефект переходу, необхідний для завершення*/
+    transition-timing-function: linear; /*Визначає швидкість кривої ефекту переходу*/
+    transition-delay: 1s; /*Визначає затримку (в секундах) для ефекту переходу*/
+}
+
+.first:hover {
+    width: 300px;
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-transition: width 2s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s linear 1s;
+}
+
+.second:hover {
+    width: 300px;
+}

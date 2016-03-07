@@ -1,0 +1,10 @@
+#a{list-style:none;
+	padding:10px;
+	margin:0px;}
+	
+ul li{background-image:url(img_submit.gif);
+	background-repeat:no-repeat;
+	background-position:0px center;
+	padding-left:50px;}
+	
+li{padding:15px /*Додав бо зображення за велике для маркера*/;}

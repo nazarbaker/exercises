@@ -1,0 +1,5 @@
+.thumbnail{float:left;
+		   margin:5px;}
+		   
+.text_line{clear:both; /*Цей елемент не буде обтікатися з права, або ліва*/
+		   margin-bottom:2px;}

@@ -1,0 +1,12 @@
+ul{list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;/*текст відображається тільки всередині елемента, 
+					що не влазить не показується.*/}
+  
+li{float:left;}
+
+a{display:block;/*робить активним всю площу посилання а не тільки текст*/
+  width:60px;
+  height:30px;
+  background-color:#dddddd;}

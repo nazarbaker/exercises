@@ -1,0 +1,17 @@
+/* styles for theAnimateMethods */
+
+body {
+	width: 400px;
+	margin: 100px auto;
+}
+
+.box {
+	width: 400px;
+	background: red;
+	padding: 1em;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/* */

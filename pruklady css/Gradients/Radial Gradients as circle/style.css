@@ -1,0 +1,15 @@
+#grad1{
+	height:150px;
+	width:200px;
+	background: -webkit-radial-gradient(red, yellow, green); 
+	/* For Safari*/
+	background: radial-gradient(red, yellow, green);
+}
+#grad2 {
+    height: 150px;
+    width: 200px;
+    background: -webkit-radial-gradient(circle, red, yellow, green);
+	/* For Safari 5.1 to 6.0 */
+    background: radial-gradient(circle, red, yellow, green);
+	/* Standard syntax (must be last) */
+}

@@ -1,0 +1,19 @@
+#grad1{
+ height: 200px;
+ background: -webkit-linear-gradient(red, green, blue);/*For Safari*/
+ background: linear-gradient(red, green, blue);/*Standard syntax - must be last*/
+}
+#grad2{
+ height: 200px;
+ background: -webkit-linear-gradient(red, orange, yellow, green, blue,
+			 indigo, violet);/*For Safari*/
+ background: linear-gradient(red, orange, yellow, green, blue,
+			 indigo, violet);/*Standard syntax - must be last*/
+}
+#grad3{
+ height: 200px;
+ background: -webkit-linear-gradient(red 10%, green 85%, blue 90%);
+ /*For Safari*/
+ background: linear-gradient(red 10%, green 85%, blue 90%);
+ /*Standard syntax - must be last*/
+}

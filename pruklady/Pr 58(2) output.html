@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>output</title>
+	<meta charset="utf-8"
+</head>
+
+<body>
+	<form
+	oninput="result.value=(cm.value/2.54).toFixed(2)">
+	<p>Введіть довжину в сантиметрах:
+	<input type="number" id="cm"/>
+	</p>
+	<p>Довжина в дюймах:
+	<output name="result">0</output>
+	</p>
+	</form>
+	<br/><br/>
+	<hr/>
+	
+	<form
+	oninput="resulttat.value=(inch.value*2.54)">
+	<p>Введіть довжину в дюймах:
+	<input type="number" name="inch"/>
+	</p>
+	<p>Довжина в сантиметрах:
+	<output id="resulttat">0</output>
+	</p>
+	</form>
+</body>
+
+</html>

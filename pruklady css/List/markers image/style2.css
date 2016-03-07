@@ -1,0 +1,11 @@
+#a{list-style-type:none /*Робиться, щоб забрати маркери*/;
+  padding:0px;
+  margin:0px;}
+  
+ul li{	background-image:url(img_submit.gif);
+	background-repeat:no-repeat;
+	background-position:0px center;
+	padding-top:12px /*Додав бо зображення за велике для маркера*/;
+	padding-bottom:12px /*Додав бо зображення за велике для маркера(додає відступ в низ)*/;
+	padding-left:50px;
+	margin:15px;}

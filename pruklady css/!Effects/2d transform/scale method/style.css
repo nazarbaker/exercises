@@ -1,0 +1,11 @@
+div {
+	margin: 150px;
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+	-ms-transform: scale(2,3); /*IE 9*/
+	-webkit-transform: scale(2,3); /*Safari*/
+	transform: scale(2,3); /*Standard syntax*/
+}
+/*Цей елемент в два раза ширший ніж має бути і в три рази вищий*/

@@ -1,0 +1,10 @@
+#ul1{list-style-type:circle;}/*не відомо */
+#menu{padding:0px; width:100%;}
+#menu li{display:inline;}/*робить li рядковим елементом,
+						тому відображається в одній лінії*/
+#menu li a{background-color: black;
+		color:white;
+		padding: 20px 30px;
+		text-decoration: none;
+		border-radius: 4px 4px 0 0;}
+#menu li a:hover{background-color: orange;}

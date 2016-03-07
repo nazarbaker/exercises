@@ -1,0 +1,2 @@
+http://www.sublimetext.com/
+https://packagecontrol.io/installation

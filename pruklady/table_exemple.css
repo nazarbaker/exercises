@@ -1,0 +1,8 @@
+table,th,td {border: 1px solid black;
+		  border-collapse:collapse;}
+tbody {vertical-align: middle;
+    border-color: inherit;}/*tbody - не видно, але це вся таблиця*/
+tfoot {color:green;}
+table{width:100%;}
+tr:nth-child(odd){background-color:#FFF;}/*задає стиль не парним рядкам*/
+tr:nth-child(even){background-color:#eee;}/*задає стиль парним рядкам*/

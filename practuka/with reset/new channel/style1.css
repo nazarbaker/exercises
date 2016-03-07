@@ -1,0 +1,103 @@
+
+.central-block {
+    margin: 40px auto 0;
+    width:360px;
+}
+.form-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+	font-weight: bold;
+}
+.form-row {
+    height:80px;
+}
+.label-text {
+    display:block;
+    color:#707070;
+    font-weight:bold;
+    font-size:14px;
+    margin-top:14px;
+    margin-bottom:14px;
+}
+#video-url {
+    border:none;
+    width:100%;
+    border: none;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+#video-title{
+    border:none;
+    width:100%;
+    border: none;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  line-height: 32px;
+}
+.form-row-decription {
+    border-bottom-style:solid;
+    border-color:blue;
+    border-width:2px;
+    height:80px;
+}
+#video-description {
+    border: none;
+      width: 100%;
+      border-bottom: 1px solid lightgrey;
+      font-size: 14px;
+      line-height: 32px;
+}
+.choose-channel {
+    height:45px;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:#e0e0e0;
+    padding-top:5px;
+}
+.radio-input {
+    margin-top:10px;
+}
+.channel-name{
+    font-weight:bold;
+    font-size:14px;
+}
+#new-channel{
+    font-weight: bold;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  display: block;
+  text-decoration: none;
+}
+.form-row-button {
+    margin-top:30px;
+}
+.button{
+    display:block;
+    margin:auto;
+    border-radius:25px 25px 25px 25px;
+    width:225px;
+    height:40px;
+    text-align:center;
+    padding-top:10px;
+    background-color: white;
+    color:blue;
+    border:2px solid blue;
+    font-weight:bold;
+    padding-bottom:8px;
+}
+
+.x{
+    float: left;
+    margin-left:420px;
+    margin-top:20px;
+    width:23px;
+    height:23px;
+}
+.x img{
+    width:100%;
+}

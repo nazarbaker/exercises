@@ -1,0 +1,19 @@
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;/*можна задати будь-який колір*/
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 4s;
+	animation-name: example;
+	animation-duration: 4s;
+}
+/*from opera and safari*/
+@-webkit-keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
+/*standard syntax*/
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}

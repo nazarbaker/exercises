@@ -1,0 +1,6 @@
+#grad1{
+ height:200px;
+ background: -webkit-repeating-linear-gradient(red, yellow 10%,
+			 green 20%);/*for Safari*/
+  background: repeating-linear-gradient(red, yellow 10%, green 20%);		 
+}

@@ -1,0 +1,121 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.central-block {
+    margin: 40px auto 0;
+    width:360px;
+}
+.form-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.form-row {
+    height:80px;
+}
+.label-text {
+    display:block;
+    color:#707070;
+    font-weight:bold;
+    font-size:14px;
+    margin-top:14px;
+    margin-bottom:14px;
+}
+#video-url {
+    border:none;
+    width:100%;
+    border: none;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+#video-title{
+    border:none;
+    width:100%;
+    border: none;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  line-height: 32px;
+}
+.form-row-decription {
+    border-bottom-style:solid;
+    border-color:blue;
+    border-width:2px;
+    height:80px;
+}
+#video-description {
+    border: none;
+      width: 100%;
+      border-bottom: 1px solid lightgrey;
+      font-size: 14px;
+      line-height: 32px;
+}
+.choose-channel {
+    height:45px;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:#e0e0e0;
+    padding-top:5px;
+}
+.radio-input {
+    margin-top:10px;
+}
+.channel-name{
+    font-weight:bold;
+    font-size:14px;
+}
+#new-channel{
+    font-weight: bold;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  display: block;
+  text-decoration: none;
+}
+.form-row-button {
+    margin-top:30px;
+}
+.button{
+    display:block;
+    margin:auto;
+    border-radius:25px 25px 25px 25px;
+    width:225px;
+    height:40px;
+    text-align:center;
+    padding-top:10px;
+    background-color: white;
+    color:blue;
+    border:2px solid blue;
+    font-weight:bold;
+    padding-bottom:8px;
+}
+
+a{
+   text-decoration:none;
+   }
+
+.auth-btn {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 265px;
+	height: 28px;
+	border-radius: 25px 25px 25px 25px;
+	padding-top: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+}
+.auth-btn-google {
+	border:1px solid red;
+	background-color:red;
+}
+.auth-btn-facebook {
+	border:1px solid #1919d1;
+	background-color:#1919d1;
+}
+	  

@@ -1,0 +1,35 @@
+#borderimg{
+ border:10px solid transparent;
+ padding:15px;
+ border-image:url(border.png) 30 round;
+ -webkit-border-image:url(border.png) 30 round;/*For Safari*/
+}
+/*Тут зображення повторюються*/
+#borderimg-2{
+ border:10px solid transparent;
+ padding:15px;
+ border-image:url(border.png) 30 stretch;
+ -webkit-border-image:url(border.png) 30 stretch;/*For Safari*/
+}
+/*Тут зображення розтягується*/
+#borderimg-3{
+ border:10px solid transparent;
+ padding:15px;
+ border-image:url(border.png) 50 round;
+ -webkit-border-image:url(border.png) 50 round;/*For Safari*/
+}
+/*Тут буде показано тільки кути*/
+#borderimg-4{
+ border:10px solid transparent;
+ padding:15px;
+ border-image:url(border.png) 20% round;
+ /*-webkit-border-image:url(border.png) 20% round;/*For Safari*/
+}
+/*Чогось не той ефект коли написаний код для сафарі*/
+#borderimg-5{
+ border:10px solid transparent;
+ padding:15px;
+ border-image:url(border.png) 30% round;
+ /*-webkit-border-image:url(border.png) 30% round;/*For Safari*/
+}
+/*Чогось не той ефект коли написаний код для сафарі*/

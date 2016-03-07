@@ -1,0 +1,20 @@
+#grad1{
+ height:100px;
+ background: -webkit-linear-gradient(0deg, red, blue);/*For Safari*/
+ background: linear-gradient(0deg, red, blue);/*Standard syntax - must be last*/
+}
+#grad2{
+ height:100px;
+ background: -webkit-linear-gradient(90deg, red, blue);/*For Safari*/
+ background: linear-gradient(90deg, red, blue);/*Standard syntax - must be last*/
+}
+#grad3{
+ height:100px;
+ background: -webkit-linear-gradient(180deg, red, blue);/*For Safari*/
+ background: linear-gradient(180deg, red, blue);/*Standard syntax - must be last*/
+}
+#grad4{
+ height:100px;
+ background: -webkit-linear-gradient(-90deg, red, blue);/*For Safari*/
+ background: linear-gradient(-90deg, red, blue);/*Standard syntax - must be last*/
+} 

@@ -1,0 +1,29 @@
+
+1) Плагіни:
+	1.1 Шукаєш скачуєш, завантажуєш, активовуєш.
+	1.2 Дивишся, як налаштувати і додати.
+
+2) wpc-catalogue.php - головна сторінка
+
+5) В functions.php додаються функції js 
+		
+			add_action( 'wp_enqueue_scripts', 'wpsites_register_load_script' );
+			/**
+			* @author Brad Dalton - WP Sites
+			* @example http://wp.me/p1lTu0-a40
+			*/
+			function wpsites_register_load_script() {
+			    wp_register_script( 'your-script', get_stylesheet_directory_uri() . '/js/popup-order.js' );
+			    wp_register_script( 'popup', get_stylesheet_directory_uri() . '/js/jquery.bpopup.min.js' );
+			    wp_enqueue_script( 'popup' );
+			    wp_enqueue_script( 'your-script' );
+			}
+
+			відповідно в папку js додається файли /js/popup-order.js і /js/jquery.bpopup.min.js
+
+	5.1 Сайти http://dinbror.dk/bpopup/
+			  http://dinbror.dk/blog/bPopup/
+			  https://wpcafe.org/hacks/luchshie-sposobyi-dlya-zagruzki-skriptov-v-wordpress/
+
+6) плагіни для форми
+	https://wordpress.org/plugins/contact-form-7/

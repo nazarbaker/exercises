@@ -1,0 +1,152 @@
+a{
+   text-decoration:none;
+   }
+.block{
+	   float:left;
+	   margin-top:70px;
+	   margin-left:173px;
+	   width:320px;
+	   height:490px;
+	   border:1px solid #e0e0e0;
+	   border-radius:5px;
+	   }
+.heading{
+		 text-align:center;
+		 margin-top:15px;
+		 margin-bottom:15px;
+		 }
+.social{
+		height:150px;
+		border-top-style:solid;
+		border-width:1px;
+		border-color:#e0e0e0;
+		padding:30px;
+		padding-bottom:0;
+		}
+.facebook{
+		  display:block;
+		  margin:auto;
+		  margin-bottom:10px;
+		  width:265px;
+		  height:40px;
+		  border:1px solid #1919d1;
+		  border-radius:25px 25px 25px 25px;
+		  background-color:#1919d1;
+		  }
+.text{
+	  text-align:center;
+	   color:#ffffff;
+	   padding-top:17px;
+	   margin-top:-5px;
+	  }
+.google{
+		  display:block;
+		  margin:auto;
+		  margin-bottom:0;
+		  width:265px;
+		  height:40px;
+		  border:1px solid red;
+		  border-radius:25px 25px 25px 25px;
+		  background-color:red;
+		}
+.form{
+	  width:265px;
+	  margin:auto;
+	  margin-top:-25px;
+	  margin-bottom:20px;
+	  border-top-style:solid;
+	  border-width:1px;
+	  border-color:#e0e0e0;
+	  }
+.form2{
+		border-top-style:solid;
+		border-bottom-style:solid;
+		border-width:1px;
+		border-color:#e0e0e0;
+		margin-top:20px;
+		margin-bottom:30px;
+		padding-bottom:20px;
+		}
+.text-1{
+		font-size:12px;
+		font-weight:bold;
+		font-family:verdana;
+		color:#707070;
+		
+		margin:15px 0;
+		}
+.input{
+		color:#b0b0b0;
+		border:none;}
+.submit{
+		display:block;
+		margin:auto;
+		width:125px;
+		height:40px;
+		border:2px solid blue;
+		border-radius:25px 25px 25px 25px;
+		background-color:#ffffff;
+		color:blue;
+		font-weight:bold;
+		}
+.sing{
+	  display:block;
+	  text-align:center;
+	  color:#b0b0b0;
+	  font-size:13px;
+	  margin-bottom:40px;
+	  }
+.sing_up{
+		 color:#707070;
+		 }
+.recover{
+		 display:block;
+		 text-align:center;
+		 color:#707070;
+		 font-size:13px;
+		 }
+.block-2{
+		 width:320px;
+		 height:225px;
+		 float:left;
+		 clear:left;
+		 margin-top:70px;
+		 margin-bottom:70px;
+		 margin-left:173px;
+		 border:1px solid #e0e0e0;
+	     border-radius:5px;
+	     }
+.heading-1{
+		 text-align:center;
+		 margin-top:15px;
+		margin-bottom:0;
+		 border-bottom-style:solid;
+		 border-width:1px;
+		 border-color:#e0e0e0;
+		 padding-bottom:15px;
+		 }
+.submit-2{
+		display:block;
+		margin:auto;
+		width:145px;
+		height:40px;
+		border:2px solid blue;
+		border-radius:25px 25px 25px 25px;
+		background-color:#ffffff;
+		color:blue;
+		font-weight:bold;
+		}
+.form-3{
+		width:265px;
+		margin:auto;
+		padding-top:5px;
+		}
+.input-2{
+		color:#b0b0b0;
+		border:none;
+		border-bottom-style:solid;
+		border-width:1px;
+		border-color:#e0e0e0;
+		padding-bottom:15px;
+		margin-bottom:28px;
+	  }

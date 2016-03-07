@@ -1,0 +1,7 @@
+#grad1{
+ height: 155px;
+ background: -webkit-linear-gradient(left, red, orange, yellow, green, 
+             blue, indigo, violet);/*for Safari*/
+ background: linear-gradient(to right, red, orange, yellow, green, 
+			 blue, indigo, violet); /*Standard syntax (must be last)*/
+}

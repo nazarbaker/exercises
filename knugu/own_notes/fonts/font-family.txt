@@ -1,0 +1,7 @@
+sans-serif, 
+serif, 
+fantasy, 
+monospace, 
+cursive
+
+http://www.w3schools.com/cssref/css_websafe_fonts.asp

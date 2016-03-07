@@ -1,0 +1,7 @@
+::selection{color:red;
+			background:yellow;}
+/*Задає стиль для виділення тексту*/
+			
+::-moz-selection{color:red;
+				 background:yellow;}
+/*задає стиль для виділення тексту для Firefox*/

@@ -1,0 +1,30 @@
+.test1{
+	white-space: nowrap;
+	width: 200px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: clip;
+}
+.test2{
+	white-space: nowrap;
+	width: 200px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.test{
+	white-space: nowrap;
+	width: 200px;
+	overflow: hidden;
+	border: 1px solid #000000;	
+}
+.test:hover{
+	text-overflow: inherit;
+	overflow: visible;
+}
+/*white-space показує як відображати пробіли, зазвичай люба кількість
+ пробілів показується, як один, за винятком тегу <pre> таким чином
+ white-space імітує тег <pre>, але навідміну від нього не міняє шрифт 
+ на моноширний*/
+ /*Значення nowrap - пробіли не враховуються, переноси лінійок в коді html
+ ігноруються. Весь текст виводиться однією лінією.*/

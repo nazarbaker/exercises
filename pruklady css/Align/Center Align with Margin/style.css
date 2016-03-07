@@ -1,0 +1,5 @@
+.center{margin-left:auto;
+		margin-right:auto;
+		/*якщо ліва і права маржа = авто то маржу вони поділють порівну*/
+		width:70%;/*якщо ширина буде 100% не буде жодного ефекту*/
+		background-color:#b0e0e0;}

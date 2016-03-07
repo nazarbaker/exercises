@@ -1,0 +1,2 @@
+h1::after{content:url(smiley.gif);}
+/*Після кожного <h1> елемента буде зображення smile.gif*/

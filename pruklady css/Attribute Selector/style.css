@@ -1,0 +1,9 @@
+/*css до прикладу 1 - стиль буде задано до лінків які мають атрибут target*/
+a[target] {
+ background-color:yellow;
+}
+/*приклад 2 - стиль для лінків з target="_blank"*/
+a[target=_blank]{
+ background-color:red;
+}
+/*всі приклади дивись в зошиті css Attribute selector*/

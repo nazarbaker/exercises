@@ -1,0 +1,10 @@
+.img{
+ width:150px;
+ height:113px;
+ overflow:hidden;
+ opacity:0.4;
+ filter:alpha(opacity=40);/*Для ІЕ8 і ранішич версій*/
+}
+.img img{
+ width:100%;
+}

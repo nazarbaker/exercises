@@ -1,0 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+/*всі елементи будуть мати однакову ширину*/
+input, textarea {
+	width: 100%;
+}

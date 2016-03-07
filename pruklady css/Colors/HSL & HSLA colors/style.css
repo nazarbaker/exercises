@@ -1,0 +1,39 @@
+/*HSL*/
+#p1 {
+ background-color:hsl(120,100%,50%);
+}
+#p2 {
+ background-color:hsl(120,100%,75%);
+}
+#p3 {
+ background-color:hsl(120,100%,25%);
+}
+#p4 {
+ background-color:hsl(120,60%,70%);
+}
+#p5 {
+ background-color:hsl(290,100%,50%);
+}
+#p6 {
+ background-color:hsl(290,60%,70%);
+}
+
+/*HSLA*/
+#p11 {
+ background-color:hsla(120,100%,50%,0.3);
+}
+#p12 {
+ background-color:hsla(120,100%,75%,0.3);
+}
+#p13 {
+ background-color:hsla(120,100%,25%,0.3);
+}
+#p14 {
+ background-color:hsla(120,60%,70%,0.3);
+}
+#p15 {
+ background-color:hsla(290,100%,50%,0.3);
+}
+#p16 {
+ background-color:hsla(290,60%,70%,0.3);
+}

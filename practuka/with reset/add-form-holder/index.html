@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div class="add-form-holder central-block">
+    <h4 class="form-heading">Add Video</h4>
+    <form class="video-edit">
+        <div class="form-row">
+            <label for="video-url" class="label-text" >URL</label>
+            <input type="text" name="url" id="video-url" />
+        </div>
+        <!--<div class="preview-image"></div>-->
+        <div class="form-row">
+            <label for="video-title" class="label-text" >Title</label>
+            <input type="text" name="title" id="video-title" />
+        </div>
+        <div class="form-row">
+            <label for="video-description" class="label-text" >Decription</label>
+            <input type="text" name="description" id="video-description" />
+        </div>
+        <div class="choose-channel">
+            <label class="label-text" for="video-channel-id">Choose Channel</label>
+        </div>
+        <div class="choose-channel">
+            <input class="radio-input"type="radio" name="channelId" id="video-channel-id" checked/>
+            <span class="channel-name">Channel 1</span>
+        </div>
+        <div class="choose-channel">
+            <input class="radio-input" type="radio" name="channelId"/>
+            <span class="channel-name">Channel 2</span>
+        </div>
+        <div class="choose-channel">
+            <a href="#/add-channel" id="new-channel">New Channel</a>
+        </div>
+        <div class="form-row-button" class="label-text" >
+            <input class="button" type="submit" value="Add Video" />
+        </div>
+    </form>
+</div>
+
+<!--New Channel-->
+
+<div class="add-form-holder central-block">
+    <h4 class="form-heading">New Channel</h4>
+    <form class="video-edit">
+        <div class="form-row">
+            <label for="video-url" class="label-text" >Name</label>
+            <input type="text" name="url" id="video-url" />
+        </div>
+        <!--<div class="preview-image"></div>-->
+        <div class="form-row">
+            <label for="video-title" class="label-text" >Decription</label>
+            <input type="text" name="title" id="video-title" />
+        </div>
+        <div class="form-row">
+            <label for="video-description" class="label-text" >Background URL</label>
+            <input type="text" name="description" id="video-description" />
+        </div>
+		<div class="form-row-button" class="label-text" >
+            <input class="button" type="submit" value="CREATE CHANNEL" />
+        </div>
+    </form>
+</div>
+
+<!--Buttons-->
+
+<div class="add-form-holder central-block">	
+	<a href="http://cliprolltest.elasticbeanstalk.com/oauth/google/authenticate" class="auth-btn auth-btn-google">WITH GOOGLE</a>
+	<a href="http://cliprolltest.elasticbeanstalk.com/oauth/facebook/authenticate" class="auth-btn auth-btn-facebook">WITH FACEBOOK</a>
+</div>
+
+</body>
+</html>

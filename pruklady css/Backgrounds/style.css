@@ -1,0 +1,5 @@
+#example1{
+ background: url(150.jpg) right bottom no-repeat,
+			 url(fon.jpg) left top repeat;
+ padding: 15px;
+}

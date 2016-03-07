@@ -1,0 +1,14 @@
+.first{color:white;
+	   background-color:gray;}
+#h{text-align:center;}
+#second{color:white;
+		background-color:blue;}
+#paint{width:500px;
+	   height:358px;}
+#tb{text-align:center;
+	width:200px}
+#tb1{span:2;width:200px;}
+table,th,td{border:1px solid black;
+		  border-collapse:collapse;}
+table{width:100%;
+	text-align:center;}

@@ -1,0 +1,12 @@
+html{
+ background: url(flower.jpg) no-repeat center center fixed;
+ background-size: cover;
+}
+body{
+ color:white;
+}
+/*
+Заповнює всю сторінку зображенням (без пробілів)
+Масштаб зображення при необхідності
+Центр зображення на сторінці
+Не викликають прокрутки*/

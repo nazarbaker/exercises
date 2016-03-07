@@ -1,0 +1,9 @@
+table,th,td{border:1px solid black;
+		  border-collapse:collapse;}
+#col1{background:#FFB5C5;}
+#t01 th {background-color:black; color: white;}
+#t01{width:100%}
+#t01 tr:nth-last-child(5) {background: #FFFF00;}
+#to1 tr:not(:nth-child(n+6)) {display:none;}
+#t01 tr:nth-child(odd) {border:2px solid red; background-color:#eee}
+#t01 tr:nth-child(n+4):nth-child(-n+6) {color:red;}

@@ -1,0 +1,19 @@
+ul{float:left;
+  width:100%;
+  padding:0;
+  margin:0;
+  list-style-type:none;}
+  /*показує що не потрібно ставити значків перед елементами списку*/
+  
+a{float:left;/*якщо не вказати, то ширина посилань буде різна, а не 6ем*/
+  width:6em;/*ширина посилань*/
+  text-decoration:none;/*забирає підкреслення посилань*/
+  color:white;
+  background-color:purple;
+  padding:0.2em 0.6em;/*Відступ від тексту до рамки*/
+  border-right:1px solid white;}
+
+a:hover{background-color:fuchsia;}/*колір при наведені на посилання*/
+
+li{display:inline;}
+/*додав щоб виглядало як меню, але вже перед додаванням все було як треба?*/

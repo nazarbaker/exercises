@@ -1,0 +1,10 @@
+.test{
+	width: 11em;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+/*Варіант без перенесення*/
+.test-2{
+	width: 11em;
+	border: 1px solid #000000;
+}

@@ -1,0 +1,13 @@
+#example1{
+ border: 1px solid black;
+ background: url(images.png);
+ background-repeat: no-repeat;
+ padding: 15px;
+}
+#example2{
+ border: 1px solid black;
+ background: url(images.png);
+ background-size: 80px 100px;
+ background-repeat: no-repeat;
+ padding: 15px;
+}

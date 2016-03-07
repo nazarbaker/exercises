@@ -1,0 +1,96 @@
+#page {
+	margin: 36px auto;
+	width: 71.1%; /*960px;*/
+
+	outline: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+	#page {
+	position: relative;
+	margin: 20px;
+	width: auto;
+	.welcome,
+	.blog,
+	.gallery {
+		margin: 0 0 30px;
+		width: auto;
+}
+}
+}
+
+#page:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+.blog {
+	margin: 0 auto 53px;
+	width: 93.75%; /*900px/960px*/
+	background-image: url("b-blog.png");
+	background-repeat: repeat-y;
+	background-position: 63.1111111111111% 10%;
+
+
+}
+
+.blog:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+.blog .lede {
+	padding-left: 5.33333333%;/*48px*/
+	font: 3.625em League Gothic;
+}
+
+@media screen and (max-width: 768px) {
+	.blog .lede {
+	font: normal 1.5em Calibri, Candara,
+	Segoe, "Segoe UI", Optima, Arial,
+	Helvetica, sans-serif; /* 24px / 16px */
+}
+}
+
+.blog .main {
+	float: left;
+	width: 62.8888889%; /*566px/900px*/
+
+	outline: 1px solid blue;
+}
+
+.blog .article {
+	padding: 8.48056537%; /*48px/566px*/
+
+	outline: 1px solid yellow;
+}
+
+.blog .other {
+	float: right;
+	width: 36.7777778%; /*331px/900px*/
+
+	outline: 1px solid blue;
+}
+
+.blog .recent-entries {
+	margin: 0 auto;
+	width: 69.7885196%; /*231px/331px*/ 
+
+	outline: 1px solid yellow;
+}
+
+.blog .figure {
+	float: right;
+	margin-bottom: 0.5em;
+	margin-left: 2.53164557%; /*12px/474px*/
+	width: 48.7341772%; /*231px/474px*/
+
+
+	outline: 1px solid red;
+}
+
+img {
+	max-width: 100%;
+}

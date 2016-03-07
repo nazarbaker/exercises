@@ -1,0 +1,16 @@
+.img{
+ float:left;
+ margin:5px;
+ width:300px;
+ height:226px;
+ overflow:hidden;
+ opacity:0.4;
+ filter:alpha(opacity=40);/*Для ІЕ8 і ранішич версій*/
+}
+.img img{
+ width:100%;
+}
+.img:hover{
+ opacity:1.0;
+ filter:alpha(opacity=100);/*Для ІЕ8 і ранішич версій*/
+}

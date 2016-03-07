@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<form oninput="
+currentSliderVal.value = parseInt(a.value);
+x.value=parseInt(a.value)+parseInt(b.value);
+inch.value=(a.value/2.54).toFixed(2);
+metr.value=(a.value/10).toFixed(2);
+" >0
+<input type="range" id="a" value="50">100cm
+    <br />
++ <input type="number" id="b" value="50">
+=<output name="x" for="a b">0</output>cm
+    <p><br /></p>
+    <hr />
+    Длина в cm:
+    <output name="currentSliderVal" for="a">0</output>
+    <br />
+    <hr />
+    Длина в дюймах: 
+    <output name="inch" for="a">**.**</output>
+    <br />
+    Длина в metr:
+    <output name="metr" for="a">**.**</output>
+    </form>
+</body>
+
+</html>

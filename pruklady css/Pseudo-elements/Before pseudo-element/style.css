@@ -1,0 +1,2 @@
+h1::before{content:url(smiley.gif);}
+/*Перед кожним <h1> елементом буде зображення smile.gif*/

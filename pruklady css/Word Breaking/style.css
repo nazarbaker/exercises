@@ -1,0 +1,10 @@
+.test1{
+	width: 140px;
+	border: 1px solid #000000;
+	word-break: keep-all;
+}
+.test2{
+	width: 140px;
+	border: 1px solid #000000;
+	word-break: break-all;
+}

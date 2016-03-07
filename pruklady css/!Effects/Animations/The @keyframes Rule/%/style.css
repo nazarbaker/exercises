@@ -1,0 +1,36 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: red;/*можна задати будь-який колір*/
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 4s;
+	animation-name: example;
+	animation-duration: 4s;
+}
+/*from opera and safari*/
+@-webkit-keyframes example {
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	100% {background-color: green;}
+}
+/*standard syntax*/
+@keyframes example {
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	100% {background-color: green;}
+}
+
+
+/* delete for sass
+=animation-name($name)
+	-webkit-animation-name: $name
+	animation-name: $name
+=animation-durection($time)
+	-webkit-animation-duration: $time
+	animation-duration: $time
+	
+	
+	+animation-name(example)
+		+animation-duration(4s)

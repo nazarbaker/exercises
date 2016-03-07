@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>output</title>
+</head>
+
+<body>
+	<form action="action_page.php"	oninput="x.value=parseInt(a.value)+parseInt(b.value); val.value=parseInt(a.value)">
+	0
+	<input type="range" min="0" max="1000" id="a" name="a" value="0"/>
+	1000+
+	<input type="number" id="b" value="50"/>
+	=
+	<output name="x" for="a b"></output>
+	<br/><br/>
+	<output name="val">0</output>
+	<br/><br/>
+	<input type="submit"/>
+	</form>
+</body>
+
+</html>

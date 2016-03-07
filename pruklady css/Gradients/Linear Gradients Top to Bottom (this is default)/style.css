@@ -1,0 +1,18 @@
+#grad1{
+ height:200px;
+ background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+ background:linear-gradient(red,blue);/*Standard syntax - must be last*/
+}
+/*IE don't support gradient*/
+/*
+@mixin bg($top, $btm)
+	background: $top
+	background: -moz-linear-gradient(top, $top 0%, $btm 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$btm))
+	background: -webkit-linear-gradient(top, $top 0%,$btm 100%)
+	background: -o-linear-gradient(top, $top 0%,$btm 100%)
+	background: -ms-linear-gradient(top, $top 0%,$btm 100%)
+	background: linear-gradient(to bottom, $top 0%,$btm 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$btm',GradientType=0 )
+
+@include bg(#aaaaaa, #efefef)
